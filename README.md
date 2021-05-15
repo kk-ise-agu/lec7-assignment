@@ -1,31 +1,34 @@
-# Conda environment with environment.yml
+# Exercise 7: Plotting data in Python (10 points)
 
-[![Binder](http://mybinder.org/badge_logo.svg)](http://mybinder.org/v2/gh/binder-examples/conda_environment/master?filepath=index.ipynb)
+This week we'll put together our data analysis and plotting skills using Pandas and Matplotlib to create visualizations.
 
-A Binder-compatible repo with an `environment.yml` file.
+If you are uncertain about **the style of your code**, take a look at the **[PEP 8 - Style guide for Python code](https://www.python.org/dev/peps/pep-0008/)**.
 
-Access this Binder by clicking the blue badge above or at the following URL:
+After making your changes to the notebook, you will need to upload it to GitHub.
 
-http://mybinder.org/v2/gh/binder-examples/conda_environment/master?filepath=index.ipynb
+- **Exercise 7 is due by 17:00 on Friday, 23 October 2020)**.
+- Don't forget to check out the [hints for this week's exercise](https://geo-python-site.readthedocs.io/en/latest/lessons/L7/exercise-7.html#exercise-7-hints) if you're having trouble.
 
-## Notes
-The `environment.yml` file should list all Python libraries on which your notebooks
-depend, specified as though they were created using the following `conda` commands:
+## Before you start
 
+### Clone the Exercise 7 repository
+
+- Make sure you cloned your own repository (repository name contains your GitHub username). 
+- After solving the problems, remember to commit your changes and push them to GitHub. 
+- Remember also to answer all written questions in the exercise, in addition to the programming tasks.
+
+## Getting started
+
+Always remove these two lines when starting to work on an exercise:
 ```
-conda activate example-environment
-conda env export --from-history -f environment.yml
+# REPLACE THE ERROR BELOW WITH YOUR OWN CODE
+raise NotImplementedError()
 ```
+This error will tell us if you have not even started to solve the problem when checking the exercises :)
 
-Note that the only libraries available to you will be the ones specified in
-the `environment.yml`, so be sure to include everything that you need! 
+## Problems
 
-Also note that if you skip the `--from-history`, conda may include OS-specific
-packages in `environment.yml`, which you would have to manually prune from
-`environment.yml`.  For example, confirmed macOS-specific packages that should
-be removed are:
+Exercise 7 has 2 problems worth 10 points in total. 
 
-* libcxxabi=4.0.1
-* appnope=0.1.0
-* libgfortran=3.0.1
-* libcxx=4.0.1
+ - [Problem 1: Random scatter plot (3 points)](Exercise-7-problem-1.ipynb)
+ - [Problem 2: Plotting temperatures (7 points)](Exercise-7-problem-2.ipynb)
