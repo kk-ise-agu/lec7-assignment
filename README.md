@@ -2,7 +2,7 @@
 
 This week we'll put together our data analysis and plotting skills using Pandas and Matplotlib to create visualizations.
 
-- **Exercise 7 is due by 9:00 on Monday, 31 May 2021)**.
+- **Exercise 7 is due by 9:00 on Monday, 31 May 2021**.
 
 ## Before you start
 
